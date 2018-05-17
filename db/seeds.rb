@@ -5,3 +5,9 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+
+records = JSON.parse(File.read('/home/projects/test1/public/products.json'))
+records.each do |record|
+  ModelName.create!(record)
+end
