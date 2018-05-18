@@ -1,0 +1,20 @@
+.card {
+  color: white;
+  background-size: cover;
+  height: 200px;
+  position: relative;
+}
+
+
+.card-description {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+
+}
+
+.details-link {
+  position: absolute;
+  bottom: 10px;
+  left:10px;
+}

@@ -1,0 +1,19 @@
+.my-navbar {
+background-color: transparent;
+display: flex;
+height: 70px;
+justify-content: space-between;
+width: 100%;
+  transition: 0.5s background-color ease;
+}
+.my-navbar-white {
+  background-color: white;
+}
+
+h2 {
+  margin: none;
+}
+
+.nav-item {
+
+}
